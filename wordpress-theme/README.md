@@ -1,4 +1,4 @@
-# Rapid Lead Works WordPress Theme
+# High Level Scaling WordPress Theme
 
 A modern, responsive WordPress theme for digital agencies and creative businesses.
 
@@ -15,7 +15,7 @@ A modern, responsive WordPress theme for digital agencies and creative businesse
 ## Installation
 
 1. Download the theme files
-2. Upload the `rapidleadworks-theme` folder to your `/wp-content/themes/` directory
+2. Upload the `highlevelscaling-theme` folder to your `/wp-content/themes/` directory
 3. Activate the theme through the WordPress admin panel
 4. Go to Appearance > Customize to configure theme options
 

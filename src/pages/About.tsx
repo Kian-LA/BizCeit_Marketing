@@ -10,7 +10,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              We're <span className="text-lime-400">Rapid Lead Works</span>
+              We're <span className="text-lime-400">High Level Scaling</span>
             </h1>
             <p className="text-slate-300 text-lg md:text-xl mb-8 max-w-2xl mx-auto">
               A passionate team of designers, developers, and strategists dedicated to creating digital experiences that drive real business results.

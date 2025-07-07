@@ -110,7 +110,7 @@
                             <div class="contact-icon">📧</div>
                             <div class="contact-details">
                                 <h3>Email Us</h3>
-                                <p>hello@rapidleadworks.com</p>
+                                <p>hello@highlevelscaling.com</p>
                                 <small>We'll respond within 24 hours</small>
                             </div>
                         </div>

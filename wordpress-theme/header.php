@@ -13,7 +13,7 @@
     <div class="container">
         <div class="header-content">
             <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
-                RAPID LEAD WORKS
+                HIGH LEVEL SCALING
             </a>
             
             <nav class="main-navigation">

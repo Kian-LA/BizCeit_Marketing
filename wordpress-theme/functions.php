@@ -1,6 +1,6 @@
 <?php
 // Theme setup
-function bizceit_theme_setup() {
+function highlevelscaling_theme_setup() {
     // Add theme support for various features
     add_theme_support('post-thumbnails');
     add_theme_support('title-tag');
@@ -15,18 +15,18 @@ function bizceit_theme_setup() {
 
     // Register navigation menus
     register_nav_menus(array(
-        'primary' => __('Primary Menu', 'bizceit'),
-        'footer' => __('Footer Menu', 'bizceit'),
+        'primary' => __('Primary Menu', 'highlevelscaling'),
+        'footer' => __('Footer Menu', 'highlevelscaling'),
     ));
 }
-add_action('after_setup_theme', 'bizceit_theme_setup');
+add_action('after_setup_theme', 'highlevelscaling_theme_setup');
 
 // Enqueue styles and scripts
-function bizceit_scripts() {
-    wp_enqueue_style('bizceit-style', get_stylesheet_uri());
-    wp_enqueue_script('bizceit-script', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true);
+function highlevelscaling_scripts() {
+    wp_enqueue_style('highlevelscaling-style', get_stylesheet_uri());
+    wp_enqueue_script('highlevelscaling-script', get_template_directory_uri() . '/js/main.js', array(), '1.0.0', true);
 }
-add_action('wp_enqueue_scripts', 'bizceit_scripts');
+add_action('wp_enqueue_scripts', 'highlevelscaling_scripts');
 
 // Custom post types
 function create_portfolio_post_type() {

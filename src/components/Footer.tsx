@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <Link to="/" className="text-2xl font-bold text-lime-400 mb-4 block">
-              RAPID LEAD WORKS
+              HIGH LEVEL SCALING
             </Link>
             <p className="text-slate-400 mb-4">
               Creating digital experiences that captivate and convert.
             </p>
             <div className="text-slate-500 text-sm">
-              © 2024 Rapid Lead Works. All rights reserved.
+              © 2024 High Level Scaling. All rights reserved.
             </div>
           </div>
 

@@ -5,7 +5,7 @@
         <div class="container">
             <div class="hero-content text-center">
                 <h1 class="hero-title">
-                    We're <span class="highlight">Rapid Lead Works</span>
+                    We're <span class="highlight">High Level Scaling</span>
                 </h1>
                 <p class="hero-subtitle">
                     A passionate team of designers, developers, and strategists dedicated to creating digital experiences that drive real business results.

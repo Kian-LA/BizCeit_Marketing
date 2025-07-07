@@ -262,7 +262,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">Email Us</h3>
-                    <p className="text-slate-600">hello@rapidleadworks.com</p>
+                    <p className="text-slate-600">hello@highlevelscaling.com</p>
                     <p className="text-slate-500 text-sm">We'll respond within 24 hours</p>
                   </div>
                 </div>
