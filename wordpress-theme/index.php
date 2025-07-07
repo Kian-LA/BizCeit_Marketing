@@ -10,7 +10,7 @@
                     LET THE AGENCY ELEVATE YOUR BRAND
                 </p>
                 <h1 class="hero-title">
-                    Deploy Our <span class="highlight">Done-For-You Client Acquisition System</span> and See Results in 3 days, or pay nothing!
+                    Stop Chasing Leads—Deploy an <span class="highlight">All-in-One Customer Acquisition System</span> Built to Leap the Competition.
                 </h1>
                 <p class="hero-subtitle">
                     We create digital experiences that captivate audiences and drive results. From stunning websites to powerful brand identities, we bring your vision to life.

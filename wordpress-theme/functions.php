@@ -238,7 +238,7 @@ function rapidleadworks_customize_register($wp_customize) {
     ));
 
     $wp_customize->add_setting('hero_title', array(
-        'default' => 'Deploy Our Done-For-You Client Acquisition System and See Results in 3 days, or pay nothing!',
+        'default' => 'Stop Chasing Leads—Deploy an All-in-One Customer Acquisition System Built to Leap the Competition.',
         'sanitize_callback' => 'sanitize_text_field',
     ));
 
