@@ -10,7 +10,7 @@
                     LET THE AGENCY ELEVATE YOUR BRAND
                 </p>
                 <h1 class="hero-title">
-                    Never Miss Another Deal Again: The <span className="highlight">Automated Customer Acquisition System</span> Captures, Converts, and Closes in less than 72 Hours...Or Pay Nothing.
+                    Our <span class="highlight">Proven Automation Platform</span> Captures and Converts Clients on AutoPilot, Results in 72 Hours Or You Pay Nothing.
                 </h1>
                 <p class="hero-subtitle">
                     We create digital experiences that captivate audiences and drive results. From stunning websites to powerful brand identities, we bring your vision to life.

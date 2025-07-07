@@ -238,7 +238,7 @@ function rapidleadworks_customize_register($wp_customize) {
     ));
 
     $wp_customize->add_setting('hero_title', array(
-        'default' => 'Never Miss Another Deal Again: The Automated Customer Acquisition System Captures, Converts, and Closes in less than 72 Hours...Or Pay Nothing.',
+        'default' => 'Our Proven Automation Platform Captures and Converts Clients on AutoPilot, Results in 72 Hours Or You Pay Nothing.',
         'sanitize_callback' => 'sanitize_text_field',
     ));
 
