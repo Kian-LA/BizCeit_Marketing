@@ -10,7 +10,7 @@
                     LET THE AGENCY ELEVATE YOUR BRAND
                 </p>
                 <h1 class="hero-title">
-                    Our <span class="highlight">Proven Automation Platform</span> Captures and Converts Clients on AutoPilot, Results in 72 Hours Or You Pay Nothing.
+                    Deploy Our <span class="highlight">Done-For-You Client Acquisition System</span> and See Results in 3 days, or pay nothing!
                 </h1>
                 <p class="hero-subtitle">
                     We create digital experiences that captivate audiences and drive results. From stunning websites to powerful brand identities, we bring your vision to life.

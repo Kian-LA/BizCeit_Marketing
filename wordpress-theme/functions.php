@@ -238,7 +238,7 @@ function rapidleadworks_customize_register($wp_customize) {
     ));
 
     $wp_customize->add_setting('hero_title', array(
-        'default' => 'Our Proven Automation Platform Captures and Converts Clients on AutoPilot, Results in 72 Hours Or You Pay Nothing.',
+        'default' => 'Deploy Our Done-For-You Client Acquisition System and See Results in 3 days, or pay nothing!',
         'sanitize_callback' => 'sanitize_text_field',
     ));
 

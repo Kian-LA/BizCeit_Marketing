@@ -14,7 +14,7 @@ const Home = () => {
               LET THE AGENCY ELEVATE YOUR BRAND
             </p>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Our <span className="text-lime-400">Proven Automation Platform</span> Captures and Converts Clients on AutoPilot, Results in 72 Hours Or You Pay Nothing.
+              Deploy Our <span className="text-lime-400">Done-For-You Client Acquisition System</span> and See Results in 3 days, or pay nothing!
             </h1>
             <p className="text-slate-300 text-lg md:text-xl mb-8 max-w-2xl mx-auto">
               We create digital experiences that captivate audiences and drive results. From stunning websites to powerful brand identities, we bring your vision to life.
