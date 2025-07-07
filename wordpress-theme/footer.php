@@ -3,13 +3,13 @@
         <div class="footer-grid">
             <div class="footer-section">
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="logo mb-4">
-                    BIZCEIT
+                    RAPID LEAD WORKS
                 </a>
                 <p class="footer-description">
                     Creating digital experiences that captivate and convert.
                 </p>
                 <div class="footer-copyright">
-                    © <?php echo date('Y'); ?> BIZCEIT. All rights reserved.
+                    © <?php echo date('Y'); ?> Rapid Lead Works. All rights reserved.
                 </div>
             </div>
 

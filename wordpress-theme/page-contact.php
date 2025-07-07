@@ -110,7 +110,7 @@
                             <div class="contact-icon">📧</div>
                             <div class="contact-details">
                                 <h3>Email Us</h3>
-                                <p>hello@bizceit.com</p>
+                                <p>hello@rapidleadworks.com</p>
                                 <small>We'll respond within 24 hours</small>
                             </div>
                         </div>

@@ -13,7 +13,7 @@
     <div class="container">
         <div class="header-content">
             <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
-                BIZCEIT
+                RAPID LEAD WORKS
             </a>
             
             <nav class="main-navigation">

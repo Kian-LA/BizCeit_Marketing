@@ -216,24 +216,24 @@ function reading_time($content) {
 }
 
 // Widget areas
-function bizceit_widgets_init() {
+function rapidleadworks_widgets_init() {
     register_sidebar(array(
-        'name'          => __('Sidebar', 'bizceit'),
+        'name'          => __('Sidebar', 'rapidleadworks'),
         'id'            => 'sidebar-1',
-        'description'   => __('Add widgets here.', 'bizceit'),
+        'description'   => __('Add widgets here.', 'rapidleadworks'),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
         'before_title'  => '<h2 class="widget-title">',
         'after_title'   => '</h2>',
     ));
 }
-add_action('widgets_init', 'bizceit_widgets_init');
+add_action('widgets_init', 'rapidleadworks_widgets_init');
 
 // Customizer options
-function bizceit_customize_register($wp_customize) {
+function rapidleadworks_customize_register($wp_customize) {
     // Hero section
     $wp_customize->add_section('hero_section', array(
-        'title' => __('Hero Section', 'bizceit'),
+        'title' => __('Hero Section', 'rapidleadworks'),
         'priority' => 30,
     ));
 
@@ -243,7 +243,7 @@ function bizceit_customize_register($wp_customize) {
     ));
 
     $wp_customize->add_control('hero_title', array(
-        'label' => __('Hero Title', 'bizceit'),
+        'label' => __('Hero Title', 'rapidleadworks'),
         'section' => 'hero_section',
         'type' => 'text',
     ));
@@ -254,10 +254,9 @@ function bizceit_customize_register($wp_customize) {
     ));
 
     $wp_customize->add_control('hero_subtitle', array(
-        'label' => __('Hero Subtitle', 'bizceit'),
+        'label' => __('Hero Subtitle', 'rapidleadworks'),
         'section' => 'hero_section',
         'type' => 'textarea',
     ));
 }
-add_action('customize_register', 'bizceit_customize_register');
 ?>
