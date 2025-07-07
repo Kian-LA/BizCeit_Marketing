@@ -238,7 +238,7 @@ function rapidleadworks_customize_register($wp_customize) {
     ));
 
     $wp_customize->add_setting('hero_title', array(
-        'default' => 'Where Stunning Design Meets Flawless Functionality',
+        'default' => 'Never Miss Another Deal Again: The Automated Customer Acquisition System Captures, Converts, and Closes in less than 72 Hours...Or Pay Nothing.',
         'sanitize_callback' => 'sanitize_text_field',
     ));
 
