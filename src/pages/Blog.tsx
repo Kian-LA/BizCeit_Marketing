@@ -185,10 +185,13 @@ const Blog = () => {
                         <span>{featuredPost.readTime}</span>
                       </div>
                       
-                      <button className="text-lime-600 hover:text-lime-700 font-medium inline-flex items-center">
+                      <Link 
+                        to={`/blog/${featuredPost.id}`}
+                        className="text-lime-600 hover:text-lime-700 font-medium inline-flex items-center"
+                      >
                         Read More
                         <ArrowRight className="ml-1" size={16} />
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -204,45 +207,47 @@ const Blog = () => {
           {regularPosts.length > 0 ? (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {regularPosts.map((post) => (
-                <article key={post.id} className="group cursor-pointer">
-                  <div className="relative overflow-hidden rounded-2xl mb-4">
-                    <img 
-                      src={post.image}
-                      alt={post.title}
-                      className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute top-4 left-4">
-                      <span className="bg-white text-slate-900 px-3 py-1 rounded-full text-sm font-medium">
-                        {post.category}
-                      </span>
-                    </div>
-                  </div>
-                  
-                  <h3 className="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
-                    {post.title}
-                  </h3>
-                  
-                  <p className="text-slate-600 mb-4">
-                    {post.excerpt}
-                  </p>
-                  
-                  <div className="flex items-center justify-between text-slate-500 text-sm">
-                    <div className="flex items-center">
-                      <User className="w-4 h-4 mr-1" />
-                      <span>{post.author}</span>
-                    </div>
-                    <div className="flex items-center gap-4">
-                      <div className="flex items-center">
-                        <Calendar className="w-4 h-4 mr-1" />
-                        <span>{post.date}</span>
-                      </div>
-                      <div className="flex items-center">
-                        <Clock className="w-4 h-4 mr-1" />
-                        <span>{post.readTime}</span>
+                <Link key={post.id} to={`/blog/${post.id}`}>
+                  <article className="group cursor-pointer">
+                    <div className="relative overflow-hidden rounded-2xl mb-4">
+                      <img 
+                        src={post.image}
+                        alt={post.title}
+                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute top-4 left-4">
+                        <span className="bg-white text-slate-900 px-3 py-1 rounded-full text-sm font-medium">
+                          {post.category}
+                        </span>
                       </div>
                     </div>
-                  </div>
-                </article>
+                    
+                    <h3 className="text-xl font-bold mb-3 group-hover:text-lime-600 transition-colors">
+                      {post.title}
+                    </h3>
+                    
+                    <p className="text-slate-600 mb-4">
+                      {post.excerpt}
+                    </p>
+                    
+                    <div className="flex items-center justify-between text-slate-500 text-sm">
+                      <div className="flex items-center">
+                        <User className="w-4 h-4 mr-1" />
+                        <span>{post.author}</span>
+                      </div>
+                      <div className="flex items-center gap-4">
+                        <div className="flex items-center">
+                          <Calendar className="w-4 h-4 mr-1" />
+                          <span>{post.date}</span>
+                        </div>
+                        <div className="flex items-center">
+                          <Clock className="w-4 h-4 mr-1" />
+                          <span>{post.readTime}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </Link>
               ))}
             </div>
           ) : (
