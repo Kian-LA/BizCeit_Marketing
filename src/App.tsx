@@ -9,6 +9,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resources from './pages/Resources';
 import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogPost />} />
         </Routes>
         <Footer />
       </div>
